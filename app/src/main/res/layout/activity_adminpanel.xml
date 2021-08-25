@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adminpanel">
+
+    <Button
+        android:id="@+id/upimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image" />
+
+    <Button
+        android:id="@+id/addnoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Notification" />
+
+    <Button
+        android:id="@+id/addfac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Facility" />
+
+    <Button
+        android:id="@+id/addtpstd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Toper Students" />
+
+    <Button
+        android:id="@+id/addas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Assigment" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout" />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="378dp"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App Is Created And Devloped By MYJRE Team Contact 9140512495"
+            android:textColor="#7B1FA2"
+            android:textSize="14sp"
+            app:fontFamily="cursive" />
+    </LinearLayout>
+</LinearLayout>
